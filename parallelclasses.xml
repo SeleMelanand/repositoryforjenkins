@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Suite" parallel="classes">
+	<test thread-count="3" name="Test" parallel="classes">
+		<classes>
+			<class name="com.selenium.diffbrowsers.Testcase03MultipleMethods" />
+			<class name="com.selenium.diffbrowsers.TestCase02LapEmi" />
+			<class name="com.selenium.diffbrowsers.TestCase01PersonalLoanEmi" />
+			<class name="com.selenium.diffbrowsers.TestCase04WindowsHandleDemo" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

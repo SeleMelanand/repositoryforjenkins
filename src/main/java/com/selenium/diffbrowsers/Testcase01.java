@@ -16,10 +16,11 @@ public class Testcase01 extends InvokeBrowsers {
 	@Test
 	public void redbus() throws IOException {
 		driver.get("https://www.redbus.in/pilgrimages/");
-		if (driver.findElementByXPath("//section[@class='testimonials-wrapper']/div/h3").getText().contains("TRAVELLERS")) {
+		if (driver.findElementByXPath("//section[@class='testimonials-wrapper']/div/k3").getText().contains("TRAVELLERS")) {
 			status = "pass";
 		} else {
 			status = "fail";
 		}
+		System.out.println(driver.findElementByXPath("//section[@class='testimonials-wrapper']/div/h3").getText().contains("TRAVELLERS"));
 	}
 }

@@ -2,16 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39" started-at="2018-04-26T04:15:08Z" finished-at="2018-04-26T04:15:08Z">
+  <suite name="Default suite" duration-ms="10238" started-at="2018-04-28T11:43:33Z" finished-at="2018-04-28T11:43:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39" started-at="2018-04-26T04:15:08Z" finished-at="2018-04-26T04:15:08Z">
-      <class name="com.selenium.diffbrowsers.Regularexpressiondemo">
-        <test-method status="PASS" signature="regdemo()[pri:0, instance:com.selenium.diffbrowsers.Regularexpressiondemo@7a3d45bd]" name="regdemo" duration-ms="12" started-at="2018-04-26T04:15:08Z" finished-at="2018-04-26T04:15:08Z">
+    <test name="Default test" duration-ms="10238" started-at="2018-04-28T11:43:33Z" finished-at="2018-04-28T11:43:43Z">
+      <class name="com.selenium.diffbrowsers.Testcase01">
+        <test-method status="PASS" signature="chromebrowser()[pri:0, instance:com.selenium.diffbrowsers.Testcase01@6ec8211c]" name="chromebrowser" is-config="true" duration-ms="4244" started-at="2018-04-28T11:43:33Z" finished-at="2018-04-28T11:43:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- regdemo -->
-      </class> <!-- com.selenium.diffbrowsers.Regularexpressiondemo -->
+        </test-method> <!-- chromebrowser -->
+        <test-method status="PASS" signature="testcasedata()[pri:0, instance:com.selenium.diffbrowsers.Testcase01@6ec8211c]" name="testcasedata" is-config="true" duration-ms="1" started-at="2018-04-28T11:43:37Z" finished-at="2018-04-28T11:43:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcasedata -->
+        <test-method status="PASS" signature="htmlreportgenerator()[pri:0, instance:com.selenium.diffbrowsers.Testcase01@6ec8211c]" name="htmlreportgenerator" is-config="true" duration-ms="232" started-at="2018-04-28T11:43:37Z" finished-at="2018-04-28T11:43:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- htmlreportgenerator -->
+        <test-method status="PASS" signature="redbus()[pri:0, instance:com.selenium.diffbrowsers.Testcase01@6ec8211c]" name="redbus" duration-ms="2599" started-at="2018-04-28T11:43:37Z" finished-at="2018-04-28T11:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redbus -->
+        <test-method status="PASS" signature="teststep()[pri:0, instance:com.selenium.diffbrowsers.Testcase01@6ec8211c]" name="teststep" is-config="true" duration-ms="1057" started-at="2018-04-28T11:43:40Z" finished-at="2018-04-28T11:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teststep -->
+        <test-method status="PASS" signature="browsercloase()[pri:0, instance:com.selenium.diffbrowsers.Testcase01@6ec8211c]" name="browsercloase" is-config="true" duration-ms="2076" started-at="2018-04-28T11:43:41Z" finished-at="2018-04-28T11:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsercloase -->
+      </class> <!-- com.selenium.diffbrowsers.Testcase01 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
